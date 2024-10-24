@@ -38,7 +38,7 @@ def salir():
     
 opcion=0
 #Utilizamos el bucle while para que si el usuario introduce un numero distinto de 1,2,3 vuelva a introducir el numero.
-while True:
+while opcion != 3:
     menu()
     opcion= int(input("ingresar una opcion: ")) #Solicitamos al usuario que eliga una opción.
     
