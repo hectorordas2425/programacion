@@ -79,7 +79,8 @@ def juego():
             case "perdiste":
                 puntos_maquina +=1
             case "empate":
-                puntos_usuario=0
+                puntos_usuario +=0
+                
         print("Tu puntuacion es:",puntos_usuario, "Puntuacion de la maquina es:",puntos_maquina)
 #Establece un mensaje de animo o de felicitacion
     if puntos_usuario == 3:
